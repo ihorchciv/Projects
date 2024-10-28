@@ -1,0 +1,146 @@
+[
+  {
+    "title": "React is a ...?",
+    "variants": ["library", "framework", "application"],
+    "correct": 0
+  },
+  {
+    "title": "JSX stands for ...?",
+    "variants": ["JavaScript XML", "JavaScript Extended", "Java Syntax XML"],
+    "correct": 0
+  },
+  {
+    "title": "Which lifecycle method is used for initial component rendering?",
+    "variants": [
+      "componentDidMount",
+      "componentWillUnmount",
+      "componentDidUpdate"
+    ],
+    "correct": 0
+  },
+  {
+    "title": "Which library is commonly used with React for state management?",
+    "variants": ["Redux", "Bootstrap", "jQuery"],
+    "correct": 0
+  },
+  {
+    "title": "What are props in React?",
+    "variants": [
+      "Component states",
+      "Arguments passed into components",
+      "A function that creates a new component"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "What is useState?",
+    "variants": ["A class component", "A React hook for state", "A variable"],
+    "correct": 1
+  },
+  {
+    "title": "useEffect is used for ...?",
+    "variants": [
+      "Handling styles",
+      "Running side effects in components",
+      "Changing props"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "How is a functional component invoked in React?",
+    "variants": ["As an object", "As a function", "As a class"],
+    "correct": 1
+  },
+  {
+    "title": "What is the virtual DOM?",
+    "variants": [
+      "A copy of the real DOM",
+      "A styling tool",
+      "An interface for APIs"
+    ],
+    "correct": 0
+  },
+  {
+    "title": "Which method updates the component state in class components?",
+    "variants": ["this.setState()", "useState()", "updateState()"],
+    "correct": 0
+  },
+  {
+    "title": "What is a Fragment in React?",
+    "variants": [
+      "A way to wrap multiple elements without adding an extra node",
+      "A special attribute for styling",
+      "A function for updating state"
+    ],
+    "correct": 0
+  },
+  {
+    "title": "A React component must return ...",
+    "variants": ["an HTML structure", "JSX or null", "an array of data"],
+    "correct": 1
+  },
+  {
+    "title": "Which hook provides access to context?",
+    "variants": ["useEffect", "useContext", "useReducer"],
+    "correct": 1
+  },
+  {
+    "title": "What is a Portal in React?",
+    "variants": [
+      "A tool for working with REST APIs",
+      "A way to render elements outside the root DOM",
+      "A method for navigation"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "React Router is used for ...?",
+    "variants": [
+      "managing styles",
+      "handling navigation",
+      "connecting to databases"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "What is useReducer used for?",
+    "variants": [
+      "Creating new components",
+      "An alternative to useState for complex state",
+      "Passing data across components"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "What is the Context API?",
+    "variants": [
+      "A method for deleting components",
+      "A way to pass data between components without props",
+      "A tool for animation"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "useRef allows ...?",
+    "variants": [
+      "Creating references to DOM elements",
+      "Running side effects",
+      "Triggering re-renders"
+    ],
+    "correct": 0
+  },
+  {
+    "title": "Which method checks if a component is unmounted?",
+    "variants": [
+      "componentDidMount",
+      "componentWillUnmount",
+      "componentDidUpdate"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "How can a component be memoized?",
+    "variants": ["useState", "useMemo", "useEffect"],
+    "correct": 1
+  }
+]
