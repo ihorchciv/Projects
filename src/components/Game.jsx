@@ -2,6 +2,18 @@ import { useEffect, useState } from "react";
 
 export function Game({ question, onClickVariant, data, usedQuestions }) {
   const [percentage, setPercentage] = useState(0);
+  const [shuffledVariants, setShuffledVariants] = useState([]);
+
+  useEffect(() => {
+    const shuffleArray = (array) => {
+      return array
+        .map((value) => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
+    };
+
+    setShuffledVariants(shuffleArray(question.variants));
+  }, [question]);
 
   useEffect(() => {
     const newPercentage = Math.round(
@@ -23,7 +35,7 @@ export function Game({ question, onClickVariant, data, usedQuestions }) {
       </div>
       <h1>{question.title}</h1>
       <ul>
-        {question.variants.map((text, indx) => (
+        {shuffledVariants.map((text, indx) => (
           <li key={text} onClick={() => onClickVariant(indx)}>
             {text}
           </li>
