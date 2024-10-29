@@ -8,10 +8,13 @@ export function Game({ question, onClickVariant, data, usedQuestions }) {
       (usedQuestions.length / data.length) * 100
     );
     setPercentage(newPercentage);
-  }, [usedQuestions.length]);
+  }, [usedQuestions.length, data.length]);
 
   return (
     <>
+      <h4>
+        {usedQuestions.length}/{data.length}
+      </h4>
       <div className="progress">
         <div
           style={{ width: `${percentage}%` }}
