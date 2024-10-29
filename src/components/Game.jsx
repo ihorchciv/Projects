@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function Game({ question, onClickVariant, step, data, usedQuestions }) {
+export function Game({ question, onClickVariant, data, usedQuestions }) {
   const [percentage, setPercentage] = useState(0);
 
   useEffect(() => {
@@ -9,7 +9,6 @@ export function Game({ question, onClickVariant, step, data, usedQuestions }) {
     );
     setPercentage(newPercentage);
   }, [usedQuestions.length]);
-  console.log(step);
 
   return (
     <>
